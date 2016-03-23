@@ -9,6 +9,7 @@ before_install:
     - pip install pytest pytest-cov
     - pip install ply
     - pip install coveralls
+    - pip install sphinx
     - python setup.py install
 script:
     - python setup.py test
