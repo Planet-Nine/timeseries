@@ -12,6 +12,6 @@ before_install:
     - pip install sphinx
     - python setup.py install
 script:
-    - py.test
+    - python setup.py test
 after_success:
     - coveralls
